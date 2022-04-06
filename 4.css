@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1038px;
+    height: 285px;
+    background-color:none;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.logo img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding-right: 10px;
+    position: fixed;
+    top:10px;
+    right: 10px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.box3,
+.box6{
+    margin-right: 0;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6
+{  
+    width: 298px;
+    height: 415px;
+    background-color: rgba(136, 135, 135, 0.4);
+    margin-right: 25px;
+    margin-bottom: 15px;
+
+}
+
+body{
+    width: 100%;
+    height:100%;
+    background-image: url(BG.jpg);
+    background-position: centurn;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.promo-nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    list-style:none;
+    margin: 0;
+    width: 298px;
+    height: 290.5px;
+    background-color: rgb(255, 255, 255,0.3);
+   overflow: hidden;
+}
+.promo-nav li.nav1,
+.promo-nav li.nav2,
+.promo-nav li.nav3,
+.promo-nav li.nav4,
+.promo-nav li.nav5,
+.promo-nav li{
+  margin: 0;
+  padding: 0;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.lunbo1,
+.lunbo2,
+.lunbo3,.lunbo4,.lunbo5,.lunbo img,.lunbo
+ {
+    position: relative;
+    width: 298px;
+    height: 290.5px;
+   
+}
+.lunbo1{
+    animation: my 12s infinite ;
+}
+.lunbo2{
+    animation: my2 12s infinite ;
+}
+.lunbo3{
+    animation: my3 12s infinite ;
+}
+.lunbo4{
+    animation: my4 12s infinite ;
+}
+.lunbo5{
+    animation: my5 12s infinite ;
+}
+@keyframes my {
+    0%{
+        background-image: url(lion.jpeg);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    50%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201710%2F01%2F20171001204836_Qscet.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651587067&t=19b863813650b2259d509762f243bfdd);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    100%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201804%2F24%2F20180424201515_ndwln.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651587143&t=ad499d6eb73b7d1a6d456af7fe793880);background-size: 100% 100%;background-repeat: no-repeat
+    }
+}
+@keyframes my2 {
+    0%{
+        background-image: url(snake.jpeg);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    50%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F14123411209%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739233&t=7d4cc3d3ed420e1ad03258ca16b06688);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    100%{
+        background-image: url(https://img2.baidu.com/it/u=2572282542,1110736035&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=710);background-size: 100% 100%;background-repeat: no-repeat
+    }
+}
+@keyframes my3{
+    0%{
+        background-image: url(badger.jpeg);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    50%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201804%2F18%2F20180418131114_bphwq.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651740807&t=bd81a7784e76cd473e879cc70c937ad8);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    100%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201812%2F08%2F20181208215930_jwkwg.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739506&t=f992185c5a5e7a72f029c3bad364df73);background-size: 100% 100%;background-repeat: no-repeat
+    }
+}
+@keyframes my4 {
+    0%{
+        background-image: url(eagle.jpeg);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    50%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2F80%2Fv2-217ad4a19ab9fafcb69a34e405130147_720w.jpg%3Fsource%3D1940ef5c&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739614&t=59f6e630f78118ed6dfc15b9816cdecf);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    100%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201710%2F01%2F20171001204537_tvLRr.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739642&t=107dfa32ad6082ced3e2faf5b1d1d7c1);background-size: 100% 100%;background-repeat: no-repeat
+    }
+}
+@keyframes my5 {
+    0%{
+        background-image: url(campus.jpeg);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    50%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201505%2F06%2F20150506101933_ajuMN.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739680&t=755699b176093d3bade3d28e68418447);background-size: 100% 100%;background-repeat: no-repeat
+    }
+    100%{
+        background-image: url(https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage.xmcdn.com%2Fgroup63%2FM08%2F8D%2F55%2FwKgMcl2cZOCDUrHRAAfmnbQyn7Q760.png%3Fop_type%3D4%26device_type%3Dios%26upload_type%3Dattachment%26name%3Dmobile_large&refer=http%3A%2F%2Fimage.xmcdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651739709&t=565c61752d943e0a926b64c2c15296f3);background-size: 100% 100%;background-repeat: no-repeat
+    }
+}
+.review1{
+    height: 70px;
+    font-size: 14px;
+    padding: 0 28px;
+    margin-top: 10px;
+}
+
+.appraise{
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(255,255,255,0.1) ;
+    background-color:rgb(116, 116, 116,0.2);
+    text-align: center;
+    width: 290px;
+    height: 25px;
+    margin: auto;
+    margin-top: 0;
+    font:italic 15px 15px "Lucida Calligraphy";
+
+}
+a{
+    color: #000;
+    text-decoration:none;
+}
+
+.info{
+    font-size: 12px;
+    margin-bottom: 1px;
+    padding: 0 25px;
+    color:white;
+}
+
+
